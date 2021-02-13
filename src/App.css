@@ -8,8 +8,9 @@
   --secondary-fontSize: 16px;
 }
 
-h1 {
-  width: 40%;
+.heading {
+  width: 50%;
+  font-size: 48px;
 }
 
 body {
@@ -98,7 +99,7 @@ body {
     align-items: left;
   }
 
-  h1 {
+  .heading {
     font-size: 32px;
     width: 100%;
   }

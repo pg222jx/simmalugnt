@@ -6,7 +6,7 @@ const LoremIpsum = () => {
 
     return ( 
         <div className="text">
-           <h1>Lorem ipsum dolor sit amet,</h1>
+           <p className="heading">Lorem ipsum dolor sit amet,</p>
            <div className="row">
                 <div className="column">
                     <p>Duis scelerisque, risus non tempor sodales, risus augue ullamcorper orci, 
