@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import LoremIpsum from './LoremIpsum.jsx'
+import Text from './Text.jsx'
 import Success from './Success.jsx'
 import { SuccessContext } from './SuccessContext'
 
@@ -14,7 +14,7 @@ const Main = () => {
           document.querySelector('.line').style.backgroundColor = 'black';
           return <Success />
         } else {
-          return <LoremIpsum />
+          return <Text />
         }
       }
 

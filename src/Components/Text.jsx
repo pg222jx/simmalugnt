@@ -2,7 +2,7 @@ import React from 'react'
 import Form from './Form.jsx'
 
 
-const LoremIpsum = () => {
+const Text = () => {
 
     return ( 
         <div className="text">
@@ -21,4 +21,4 @@ const LoremIpsum = () => {
      )
 }
  
-export default LoremIpsum
+export default Text
