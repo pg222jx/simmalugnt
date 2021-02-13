@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { SuccessContext } from './SuccessContext'
 
 const Form = () => {
+    const [success, setSuccess] = useContext(SuccessContext) // eslint-disable-line no-unused-vars
+
     const handleEvent = (event) => { 
         event.preventDefault()
         const email = document.querySelector('.email').value
@@ -8,8 +11,10 @@ const Form = () => {
         if (email === 'hello') {
             const error = document.querySelector('.error')
             error.style.display = 'inline'; 
+            console.log(emailObject)
+        } else {
+            setSuccess(true)
         }
-        console.log(emailObject)
     } 
 
     return ( 

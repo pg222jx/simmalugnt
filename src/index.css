@@ -18,6 +18,11 @@ code {
 }
 
 @font-face {
+  font-family: RobotoMonoBold;
+  src: url('./Fonts/RobotoMono-Bold.ttf');
+}
+
+@font-face {
   font-family: RobotoRegular;
   src: url('./Fonts/Roboto-Regular.ttf');
 }
