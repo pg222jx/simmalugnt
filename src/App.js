@@ -2,8 +2,6 @@ import './App.css';
 import React from 'react'
 import { SuccessProvider } from './Components/SuccessContext'
 import Main from './Components/Main.jsx'
-// import LoremIpsum from './Components/LoremIpsum.jsx'
-// import Success from './Components/Success.jsx'
 
 function App() {
 

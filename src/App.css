@@ -92,6 +92,14 @@ body {
   font-size: 18px;
 }
 
+.successP {
+  color: black;
+  width: 100%;
+}
+
+  .satellite:first-child {
+    height: 100%;
+  }
 
 @media screen and (max-width: 376px) {
   .row {
@@ -127,4 +135,11 @@ body {
   .error {
     font-size: var(--secondary-fontSize);
   }
+
+  .satellite {
+    width: 50%;
+    margin: -30px;
+    margin-bottom: -50px;
+  }
+
 }
