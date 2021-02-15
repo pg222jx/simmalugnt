@@ -3,8 +3,10 @@ import React from 'react'
 import { SuccessProvider } from './Components/SuccessContext'
 import Main from './Components/Main.jsx'
 
+/**
+ * Starting point of the application.
+ */
 function App() {
-
   return (
     <div className="App">
       <header className="App-header">

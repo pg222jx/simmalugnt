@@ -1,9 +1,10 @@
 import React from 'react'
 import Form from './Form.jsx'
 
-
+/**
+ * First page.
+ */
 const Text = () => {
-
     return ( 
         <div className="text">
            <p className="heading">Lorem ipsum dolor sit amet,</p>

@@ -2,8 +2,10 @@ import React from 'react'
 import LottieAnimation from '../Lottie';
 import home from '../Animations/satellite';
 
+/**
+ * Page to render if user entered correct email.
+ */
 const Success = () => {
-
     return ( 
         <div className="text">
             <div className="row">

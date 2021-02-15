@@ -1,10 +1,17 @@
 import React, { useContext } from 'react'
 import { SuccessContext } from './SuccessContext'
 
+/**
+ * 
+ */
 const Form = () => {
+    // Context to set input success
     const [success, setSuccess] = useContext(SuccessContext) // eslint-disable-line no-unused-vars
     const endPoint = 'https://form-test.simmalugnt.dev/wp-json/simmalugnt/v1/form'
 
+    /**
+     * Sends input value to endpoint and checks result.
+     */
     const handleEvent =  async (event) => { 
         event.preventDefault()
         const email = document.querySelector('.email').value
